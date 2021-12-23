@@ -16,13 +16,15 @@ section{
     border-radius: 15px;
     width: 200px;
     height: 700px;
-    position: absolute;
+    position: relative;
     display: inline-block;
     flex-direction: column;
     justify-content: center;
     min-width: 320px;
     margin-left: 25px;
     align-self: center;
+    align-items: center;
+    justify-self: center;
 }
 
 .contenedor-pral .article1{
@@ -39,7 +41,7 @@ section{
     width: 50px;
     min-width: 320px;
     height: 298px;
-    display:flex;
+    display: flex;
     opacity: 0.5;
     overflow: hidden;
     border-radius: 15px 15px 0 0px;  
@@ -84,4 +86,3 @@ h1 span{
     color:hsla(0, 0%, 100%, 0.75);
     font-size: 1.5rem;
 }
-
